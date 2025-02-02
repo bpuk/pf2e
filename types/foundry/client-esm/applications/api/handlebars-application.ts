@@ -172,5 +172,5 @@ export interface HandlebarsTemplatePart {
 
 export interface HandlebarsRenderOptions extends ApplicationRenderOptions {
     /** An array of named template parts to render */
-    parts?: string[];
+    parts: string[];
 }
